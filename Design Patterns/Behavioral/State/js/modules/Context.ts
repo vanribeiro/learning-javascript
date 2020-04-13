@@ -1,6 +1,6 @@
+import IState from './IState';
 import OffState from './OffState';
 import OnState from './OnState';
-import IState from './IState';
 
 class Context{
     private offState: OffState;
