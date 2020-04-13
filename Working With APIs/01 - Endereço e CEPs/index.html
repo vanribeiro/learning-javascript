@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Consultando CEPs</title>
+</head>
+<body>
+    <main>
+        <article>
+            <header>
+                <h1>Consultando CEPs</h1>
+            </header>
+            <section class="search-box">
+                <div class="form-group container">
+                    <input type="text" name="finding-address" id="find-by-this-cep" placeholder="Consulte por CEP" required>
+                    <input type="button" value="buscar" id="search-btn">
+                </div>
+            </section>
+            <section class="address container" id="address">
+                <header>
+                    <h2 class="address-cep">Endereço</h2>
+                </header>
+                <table id="showing-address">
+                    <tbody>
+                        <tr>
+                            <th>CEP:</th>
+                            <td id="postal-code"></td>
+                        </tr>
+                        <tr>
+                            <th>Rua:</th>
+                            <td id="street"></td>
+                        </tr>
+                        <tr >
+                            <th>Bairro:</th>
+                            <td id="neighborhood"></td>
+                        </tr>
+                        <tr>
+                            <th>Cidade:</th>
+                            <td id="city"></td>
+                        </tr>
+                        <tr >
+                            <th>Estado:</th>
+                            <td id="state"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </article>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

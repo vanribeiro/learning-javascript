@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+  background-color: #ebebeb;
+  color: #404040;
+  font-family: "Montserrat", san-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.search-box {
+  background-color: #404040;
+  height: 100px;
+  display: flex;
+}
+
+.form-group input[type=text], .form-group input[type=button] {
+  margin: 0;
+  padding: 0;
+}
+.form-group input[type=text] {
+  height: 40px;
+  width: 75%;
+  font-size: 1.5rem;
+  padding-left: 10px;
+  font-family: "Montserrat", san-serif;
+  color: #404040;
+  float: left;
+  position: absolute;
+  border: 2px chocolate solid;
+  border-radius: 3px;
+}
+.form-group input[type=button] {
+  height: 44px;
+  width: 20%;
+  border: none;
+  background-color: chocolate;
+  border-radius: 3px;
+  text-transform: uppercase;
+  color: #ebebeb;
+  font-weight: bold;
+  float: right;
+  position: relative;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+}
+table th {
+  width: 10%;
+  border-bottom: 1px dotted chocolate;
+}
+table tr td {
+  border-bottom: 1px dotted chocolate;
+  height: 50px;
+  padding-left: 15px;
+}
+
+.dangerous {
+  background-color: #a02929;
+  border-radius: 3px;
+  color: #ebebeb;
+  padding: 15px;
+  width: 17%;
+  font-family: "Montserrat", san-serif;
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
