@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  outline: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #595959;
+  background-color: #efefef;
+  line-height: 30px;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+p, h1 {
+  padding-bottom: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
