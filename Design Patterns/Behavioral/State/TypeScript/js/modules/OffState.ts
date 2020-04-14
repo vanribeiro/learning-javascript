@@ -1,3 +1,10 @@
+/**
+ * This code example was pulled and adapted from the book:
+ * Title: Aprendendo Padrões de Projeto em PHP
+ * Author: William Sanders
+ * Language(wich I'm Reading): Portuguese
+ */
+
 import IState from './IState';
 import Context from './Context';
 
