@@ -5,7 +5,6 @@
  * Author: William Sanders
  * Book's Language: Portuguese
  */
-
 class OffState{
     context;
     constructor(contextNow){
@@ -13,7 +12,7 @@ class OffState{
     }
 
     turnLightOn(){
-        console.log("Lights on! Now I can see!");
+        console.log("Light on! Now I can see!");
         this.context.setState(this.context.getOnState());
     }
 
