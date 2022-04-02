@@ -1,0 +1,12 @@
+{
+  "name": "learning-math-methods",
+  "version": "1.0.0",
+  "description": "aprendendo a usar métodos do Objeto Math",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Van Ribeiro",
+  "type": "module",
+  "license": "ISC"
+}
