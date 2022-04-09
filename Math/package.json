@@ -8,5 +8,8 @@
   },
   "author": "Van Ribeiro",
   "type": "module",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gerador-nome": "^0.0.5"
+  }
 }
