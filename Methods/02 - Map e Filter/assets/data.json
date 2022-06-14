@@ -1,0 +1,21 @@
+[
+    {
+        "nome": "soneca",
+        "foto": "/img/soneca.jpg",
+        "idade": 2,
+        "coisaFavorita": "cochilar"
+    },
+    {
+        "nome": "guloso",
+        "foto": "/img/guloso.jpg",
+        "idade": 1,
+        "coisaFavorita": "roubar comida"
+    },
+    {
+        "nome": "brisa",
+        "foto": "/img/brisa.jpg",
+        "idade": 4,
+        "coisaFavorita": "viajar de barco"
+    }
+
+]
